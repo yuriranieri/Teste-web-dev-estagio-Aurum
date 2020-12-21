@@ -28,7 +28,7 @@ function executeFunc3() {
 // criei 3 functions execute pois nos exercícios pede para retornar ou uma string ou um int se não essas eu botaria os innerHTML dentro de cada function
 
 function removeRepeated(string, limit) {
-    // nessa function só não consegui utilizar o limit, a function apaga todos caracteres repetidos se o limit for 1 se não apaga só uma vez
+    // nessa function só não consegui utilizar o limit, a function apaga todos caracteres repetidos se o limit for 1
 
     let boolean = /(.)(?=.*\1)/.test(string); // retorna true se a string possui caracter repetido
 
@@ -46,8 +46,8 @@ function removeRepeated(string, limit) {
 }
 
 function replaceChar (string, times) {
-    /* nesssa function não consegui utilizar o times, ela só substtitui onde tem "?" de acordo pela anterior 
-    e caso seja a primeira troca pela e ultima e se a ultima também for "?" troca pela penultima */
+    /* nesssa function não consegui utilizar o times, ela só substtitui onde tem "?" de acordo com o caracter anterior, 
+    caso seja o primeiro caracter troca pelo o último e se o último também for "?" troca pela penultima */
 
     let boolean = string.includes("?"); // retorna true se a string possui "?" 
     let len = string.length;
