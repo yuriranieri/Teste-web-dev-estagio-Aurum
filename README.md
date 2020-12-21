@@ -1,1 +1,2 @@
 # Teste-web-dev-estagio-Aurum
+Esse projeto foi desenvolvido para o Teste Prático Web Dev da Aurum eu tive algumas dificuldades não consegui fazer tudo que pediram faltou algumas coisas no exercício 1 e 2 onde não consegui fazer o que foi pedido com o limit e com o times nas functions removeReapeated e replaceChar. Agradeço pela oportunidade de fazer esse teste onde aprendi muito 
